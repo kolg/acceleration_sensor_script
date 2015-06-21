@@ -7,6 +7,14 @@
 #License: this script can be used, modified and distributed for anthing which 
 #is related to Openstreetmap and any non-commercial projects. (jlcod)
 
+#todo:
+#- include geodata
+#- use raw sensor data
+#- find direction of gravity (filtered over ~10s)
+#- only use the acceleration in the direction of gravity (high-pass filtered)
+#- add two more columns for acceleration orthogonal to the direction of gravity (high-pass filtered)
+
+
 import csv
 import os
 from datetime import datetime, date, time, timedelta
